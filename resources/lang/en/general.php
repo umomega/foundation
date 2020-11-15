@@ -13,6 +13,7 @@ return [
 
     'load_more' => 'Load More',
 
+    'saved_changes' => 'Successfully saved changes.',
 	'errors_saving' => 'There were errors while saving!',
 	'errors_deleting' => 'There were errors while deleting!',
 
