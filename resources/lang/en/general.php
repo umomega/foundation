@@ -28,6 +28,7 @@ return [
 	'danger' => 'Danger!',
 	'confirm_delete' => 'Are you sure you want to delete?',
 	'no_results_found' => 'No results were found.',
+	'copy' => 'Copy',
 
 	'create' => 'Create',
 	'delete' => 'Delete',
