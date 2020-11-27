@@ -7,7 +7,9 @@ return [
     'mail_trouble_click_to_view_on_browser' => 'If you’re having trouble clicking the ":actionText" button, copy and paste the URL below into your web browser: [:actionURL](:actionURL)',
 
     'yes' => 'Yes',
-    'no' => 'No', 
+    'no' => 'No',
+    'clear' => 'Clear',
+    'library' => 'Library',
 
     'greeting' => 'Hello, :name!',
 
