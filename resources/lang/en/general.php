@@ -46,4 +46,9 @@ return [
 	'locale_tr' => 'Turkish',
 	'locale_fr' => 'French',
 	'locale_german' => 'German',
+
+	'details' => 'Details',
+	'done' => 'Done',
+	'selected' => 'selected.',
+	'save_changes' => 'Save Changes'
 ];
