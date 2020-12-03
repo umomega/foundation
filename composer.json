@@ -1,0 +1,9 @@
+{
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Umomega\\Foundation\\Providers\\FoundationServiceProvider"
+            ]
+        }
+    }
+}
