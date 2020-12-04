@@ -10,6 +10,7 @@ return [
     'no' => 'No',
     'clear' => 'Clear',
     'library' => 'Library',
+    'never' => 'Never',
 
     'greeting' => 'Hello, :name!',
 
