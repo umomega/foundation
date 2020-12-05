@@ -19,7 +19,7 @@ class UtilitiesController extends Controller
     		$strings = [];
 
     		foreach (config('app.locale-keywords') as $keyword) {
-    			$strings[$locale . '.' . $keyword] = __($keyword);
+    			$strings[$locale . '.' . $keyword] = __($keyword, [], $locale);
     		}
 
     		return $strings;
