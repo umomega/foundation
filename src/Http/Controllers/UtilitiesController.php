@@ -2,8 +2,6 @@
 
 namespace Umomega\Foundation\Http\Controllers;
 
-use KgBot\LaravelLocalization\Facades\ExportLocalizations;
-
 class UtilitiesController extends Controller
 {
 
