@@ -23,8 +23,6 @@ class FoundationServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([__DIR__ . '/../../public' => public_path('vendor/foundation')], 'public');
-
         $this->publishes([__DIR__ . '/../../resources/views' => resource_path('views/vendor/foundation')], 'views');
         $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'foundation');
 
