@@ -6,7 +6,7 @@ class UtilitiesController extends Controller
 {
 
     /**
-     * Shows the dashboard
+     * Loads translations for the app
      *
      * @param string $locale
      * @return View
@@ -16,7 +16,8 @@ class UtilitiesController extends Controller
     	$strings = \Cache::rememberForever('lang.' . $locale . 'js', function () use ($locale) {
     		$strings = [];
 
-    		foreach (config('app.locale-keywords') as $keyword) {
+            // This function can be dynamically defined for each app as a helper
+    		foreach (get_locale_keywords() as $keyword) {
     			$strings[$locale . '.' . $keyword] = __($keyword, [], $locale);
     		}
 
