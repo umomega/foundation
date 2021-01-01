@@ -31,7 +31,7 @@ return [
 	'danger' => 'Tehlike!',
 	'confirm_delete' => 'Silmek istediğinize emin misiniz?',
 	'no_results_found' => 'Hiçbir sonuç bulunamadı.',
-	'copy' => 'Kopyala',
+	'copy' => 'Kopya',
 
 	'create' => 'Oluştur',
 	'delete' => 'Sil',

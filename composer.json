@@ -2,7 +2,7 @@
 	"name": "umomega/foundation",
 	"description": "Foundation for umΩ Apps",
 	"keywords": ["umomega", "laravel", "foundation", "php"],
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"license": "MIT",
 	"authors": [
         {
