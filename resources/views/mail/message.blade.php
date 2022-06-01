@@ -5,7 +5,7 @@
 @endslot
 {{-- App Logo --}}
 <div style="text-align: center; margin-bottom: 15px">
-    <img src="{{ url('/vendor/app/img/app-logo-color.svg') }}" alt="App Logo">
+    <img src="{{ url('img/app-logo-color.png') }}" alt="App Logo">
 </div>
 
 {{-- Body --}}
